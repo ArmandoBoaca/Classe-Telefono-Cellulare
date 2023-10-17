@@ -17,5 +17,17 @@ class Cellulare extends Telefono{
     public void setOS(String newOs){
         this.os = newOs;
     }
-    
+
+    public String toString(){
+        String str = "{";
+        str += super.toStringInner();
+        str += "\n\"os\" : \""+this.os+"\"";
+        return str;
+    }
+    public String toStringInner(){
+        String str = "";
+        str += super.toStringInner();
+        str += "\n\"os\" : \""+this.os+"\",";
+        return str;
+    }
 }
