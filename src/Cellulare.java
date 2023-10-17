@@ -9,6 +9,7 @@ class Cellulare extends Telefono{
     public Cellulare(Cellulare originale){
         super(originale.marca, originale.modello, originale.numero, originale.operatore);
         this.oS = originale.oS;
+        
     }
 
 
