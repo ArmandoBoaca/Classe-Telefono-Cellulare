@@ -13,6 +13,13 @@ public class Telefono {
         this.operatore = operatore;
     }
 
+    public Telefono(Telefono telefono){
+        this.marca = telefono.marca;
+        this.modello = telefono.modello;
+        this.numero = telefono.numero;
+        this.operatore = telefono.operatore;
+    }
+
     public String getMarca() {
         return marca;
     }
