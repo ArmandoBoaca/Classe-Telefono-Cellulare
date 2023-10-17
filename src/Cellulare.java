@@ -1,4 +1,4 @@
-public class Cellulare extends Telefono{
+class Cellulare extends Telefono{
     private String oS;
 
     public Cellulare(String marca, String modello, String numero, String operatore, String os){
@@ -6,7 +6,10 @@ public class Cellulare extends Telefono{
         this.oS = os;
     }
 
-    
+    public Cellulare(Cellulare originale){
+        super(originale.marca, originale.modello, originale.numero, originale.operatore);
+        this.oS = originale.oS;
+    }
 
 
 }

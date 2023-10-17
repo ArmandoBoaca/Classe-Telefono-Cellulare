@@ -1,10 +1,9 @@
-import java.math.BigInteger;
 
-public class Telefono {
-    private String marca;
-    private String modello;
-    private String numero;
-    private String operatore;
+class Telefono {
+    protected String marca;
+    protected String modello;
+    protected String numero;
+    protected String operatore;
 
     public Telefono(String marca, String modello, String numero, String operatore){
         this.marca = marca;
