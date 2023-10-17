@@ -9,8 +9,12 @@ class Cellulare extends Telefono{
     public Cellulare(Cellulare originale){
         super(originale.marca, originale.modello, originale.numero, originale.operatore);
         this.oS = originale.oS;
-        
     }
 
-
+    public String getOS() {
+        return this.oS;
+    }
+    public String setOS(String newOs){
+        this.oS = newOs;
+    }
 }
