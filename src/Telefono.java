@@ -38,5 +38,23 @@ public class Telefono {
     public Object clone(){
         return new Telefono(this.marca, this.modello, this.numero, this.operatore);
     }
-    
+
+    public String toString(){
+        String str = "{";
+        str += "\n\"marca\" : \""+this.marca+"\",";
+        str += "\n\"modello\" : \""+this.modello+"\",";
+        str += "\n\"numero\" : "+this.numero+",";
+        str += "\n\"this.operatore\" : \""+this.operatore+"\"";
+        str += "\n}";
+        return str;
+    }
+
+    public String toStringInner(){
+        String str = "";
+        str += "\n\"marca\" : \""+this.marca+"\",";
+        str += "\n\"modello\" : \""+this.modello+"\",";
+        str += "\n\"numero\" : "+this.numero+",";
+        str += "\n\"this.operatore\" : \""+this.operatore+"\",";
+        return str;
+    }
 }
