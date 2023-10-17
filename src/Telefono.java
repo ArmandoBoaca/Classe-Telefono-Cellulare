@@ -26,4 +26,12 @@ public class Telefono {
     public String getOperatore() {
         return operatore;
     }
+
+    public void setNumero(int newNumero) {
+        this.numero = newNumero;
+    }
+
+    public void setOperatore(String newOperatore) {
+        this.operatore = newOperatore;
+    }
 }
