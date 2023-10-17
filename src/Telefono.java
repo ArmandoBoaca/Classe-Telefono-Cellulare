@@ -11,6 +11,19 @@ public class Telefono {
         this.operatore = operatore;
     }
 
-    
+    public String getMarca() {
+        return marca;
+    }
 
+    public String getModello() {
+        return modello;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public String getOperatore() {
+        return operatore;
+    }
 }
