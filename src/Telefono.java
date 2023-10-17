@@ -1,10 +1,12 @@
+import java.math.BigInteger;
+
 public class Telefono {
     private String marca;
     private String modello;
-    private int numero;
+    private String numero;
     private String operatore;
 
-    public Telefono(String marca, String modello, int numero, String operatore){
+    public Telefono(String marca, String modello, String numero, String operatore){
         this.marca = marca;
         this.modello = modello;
         this.numero = numero;
@@ -19,7 +21,7 @@ public class Telefono {
         return modello;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
@@ -27,7 +29,7 @@ public class Telefono {
         return operatore;
     }
 
-    public void setNumero(int newNumero) {
+    public void setNumero(String newNumero) {
         this.numero = newNumero;
     }
 
