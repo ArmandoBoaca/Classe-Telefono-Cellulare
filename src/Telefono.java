@@ -34,4 +34,9 @@ public class Telefono {
     public void setOperatore(String newOperatore) {
         this.operatore = newOperatore;
     }
+
+    public Object clone(){
+        return new Telefono(this.marca, this.modello, this.numero, this.operatore);
+    }
+    
 }
