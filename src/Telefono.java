@@ -20,19 +20,19 @@ class Telefono {
     }
 
     public String getMarca() {
-        return marca;
+        return this.marca;
     }
 
     public String getModello() {
-        return modello;
+        return this.modello;
     }
 
     public String getNumero() {
-        return numero;
+        return this.numero;
     }
 
     public String getOperatore() {
-        return operatore;
+        return this.operatore;
     }
 
     public void setNumero(String newNumero) {
