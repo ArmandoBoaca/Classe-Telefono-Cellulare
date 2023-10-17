@@ -4,4 +4,13 @@ public class Telefono {
     private int numero;
     private String operatore;
 
+    public Telefono(String marca, String modello, int numero, String operatore){
+        this.marca = marca;
+        this.modello = modello;
+        this.numero = numero;
+        this.operatore = operatore;
+    }
+
+    
+
 }
