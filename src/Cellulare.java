@@ -14,7 +14,7 @@ class Cellulare extends Telefono{
     public String getOS() {
         return this.oS;
     }
-    public String setOS(String newOs){
+    public void setOS(String newOs){
         this.oS = newOs;
     }
 }
